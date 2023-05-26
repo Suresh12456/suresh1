@@ -16,13 +16,13 @@ public class TestingPage {
 	@FindBy(xpath = "//h1[@class='page-header']")
 	private WebElement pageHeader;
 	
-	@FindBy(id = "python")
+	@FindBy(id = "Python")
 	private WebElement pythonImage;
      
      @FindBy(id = "cartArea")
      private WebElement myCart;
      
-     @FindBy(xpath = "//u1/descentdant::i[@class='fa fa-facebook']")
+     @FindBy(xpath = "//ul[@class='list-socialicons']/descendant::i[@class='fa fa-facebook']")
      private WebElement facebookIcon;
      
      //Initialization

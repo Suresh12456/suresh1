@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript.AddTestingCourseToMyCartTest">
+      <class name="testScript.SendContactDetailsTest">
         <methods>
           <include name="classConfig"/>
           <include name="classTearDown"/>
-          <include name="addPythonToMyCart"/>
+          <include name="sendContactDetailsTest"/>
           <include name="methodConfig"/>
           <include name="methodTearDown"/>
         </methods>
-      </class> <!-- testScript.AddTestingCourseToMyCartTest -->
+      </class> <!-- testScript.SendContactDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

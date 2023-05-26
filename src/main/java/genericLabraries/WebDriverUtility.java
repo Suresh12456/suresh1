@@ -202,8 +202,8 @@ public class WebDriverUtility {
        
 		public void scrollToElement(WebElement element){
        		JavascriptExecutor js=(JavascriptExecutor)driver;
-       		js.executeScript("arguments[0].ScrollIntoView(true)",element);
-     }
+       		js.executeScript("arguments[0].scrollIntoView(true)",element);
+     } 
 		/**
 		 * This method select an element from drop down using value
 		 * @param element
